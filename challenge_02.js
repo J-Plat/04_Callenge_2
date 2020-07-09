@@ -28,14 +28,14 @@ console.log(typeof alter);
 switch (true) 
 {
     case (alter < 6):
-        console.log(name + " trinkt Milch");
+        console.log(name + " bekommt Milch");
         break;
     case (alter < 13):
-        console.log(name + " trinkt Saft");
+        console.log(name + " bekommt Saft");
         break;
     case (alter < 18):
-        console.log(name + " trinkt Cola");
+        console.log(name + " bekommt Cola");
         break;
-    default:console.log(name + " trinkt Wein");
+    default:console.log(name + " bekommt Wein");
         break;
 }
